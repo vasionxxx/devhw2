@@ -8,6 +8,8 @@
 
 # № Задание №2
 # Создадим .gitlab-ci.yml
+
+ ```
  image: node:latest
 
  stages:
@@ -33,6 +35,7 @@
   stage: test
   script:
     - npm run test
+```
 
 # Скриншот собранной сборки
 ![alt text](https://github.com/vasionxxx/devhw2/blob/main/gitlab/3.jpg)
