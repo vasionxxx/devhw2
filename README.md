@@ -8,31 +8,31 @@
 
 # № Задание №2
 # Создадим .gitlab-ci.yml
-# image: node:latest
+ image: node:latest
 
-# stages:
-#  - build
-#  - test
+ stages:
+  - build
+  - test
 
-# cache:
-#  key: ${CI_COMMIT_REF_SLUG}
-#  paths:
+ cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
     - node_modules/
 
-# install_dependencies:
-#  stage: build
-#  script:
-#    - npm ci
+ install_dependencies:
+  stage: build
+  script:
+    - npm ci
 
-# lint:
-#  stage: test
-#  script:
-#    - npm run lint
+ lint:
+  stage: test
+  script:
+    - npm run lint
 
-# unit_tests:
-#  stage: test
-#  script:
-#    - npm run test
+ unit_tests:
+  stage: test
+  script:
+    - npm run test
 
 # Скриншот собранной сборки
 ![alt text](https://github.com/vasionxxx/devhw2/blob/main/gitlab/3.jpg)
