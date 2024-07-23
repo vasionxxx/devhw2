@@ -1,6 +1,6 @@
 # Домашнее задание к занятию «Система мониторинга Zabbix. Часть 2» - BodarevVV
 # Задание №1. Создадим шаблон мониторинга CPU и RAM
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/gitlab/2111.jpg)
+![alt text](https://github.com/vasionxxx/devhw2/blob/main/gitlab/211.jpg)
 # Проверим работу шаблона мониторинга
 ![alt text](https://github.com/vasionxxx/devhw2/blob/main/gitlab/212.jpg)
 # Нагрузим процессор на хосте командой stress на 50%. Видно что значение Last value изменилось и теперь ~50%
