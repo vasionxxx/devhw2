@@ -15,3 +15,4 @@
 
 # Задание №4. Создадим шаблон мониторинга дискового пространства на хостах
 ![alt text](https://github.com/vasionxxx/devhw2/blob/main/gitlab/216.jpg)
+![alt text](https://github.com/vasionxxx/devhw2/blob/main/gitlab/211.jpg)
