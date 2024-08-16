@@ -1,18 +1,15 @@
-# Домашнее задание к занятию «Система мониторинга Zabbix. Часть 2» - BodarevVV
-# Задание №1. Создадим шаблон мониторинга CPU и RAM
+# Домашнее задание к занятию «Резервное копирование» - BodarevVV
+# Задание №1.
+# Скриншот команды и результат выполнения
 
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/gitlab/123.png)
+![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/1.jpg)
 
-# Проверим работу шаблона мониторинга
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/gitlab/212.jpg)
-# Нагрузим процессор на хосте командой stress на 50%. Видно что значение Last value изменилось и теперь ~50%
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/gitlab/213.jpg)
+# Задание №2.
+# Скрипт
+![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/2.jpg)
 
-# Задание №2, 3. Привяжем шаблоны к хостам
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/gitlab/214.jpg)
+# Файл crontab
+![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/21.jpg)
 
-# Проверим раздел Latest Data
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/gitlab/215.jpg)
-
-# Задание №4. Создадим шаблон мониторинга дискового пространства на хостах
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/gitlab/216.jpg)
+# Результат работы скрипта. Видно что в файле backup.log скрипт отработал в 8:00
+![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/22.jpg)
