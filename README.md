@@ -19,6 +19,8 @@
 ![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/3_5.jpg)
 ![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/3_6.jpg)
 
+# Файл HAProxy https://github.com/vasionxxx/devhw2/blob/main/CICD/haproxy1.txt
+
 # Задание №2.
 # Запускаем три simple python сервера по аналогии с первым заданием. Настраиваем балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий – 4. Скриншот настроек:
 
