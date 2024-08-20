@@ -33,3 +33,5 @@
 # Если же обратится без указания хоста, появится ошибка
 
 ![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/3_9.jpg)
+
+# Файл HAProxy https://github.com/vasionxxx/devhw2/blob/main/CICD/haproxy2.txt
