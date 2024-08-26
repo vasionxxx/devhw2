@@ -20,5 +20,6 @@
 
 # Выключаем первую виртуальную машину и проверяем статус keeplived и видим, что вторая виртуальная машина стала “MASTER STATE” и ip адрес 172.24.77.77 указанный в keepalived.conf, если включить первую виртуальную машину то вторая станет “BACKUP STATE”.
 
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/q22.jpg)
 ![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/q21.jpg)
+
+![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/q22.jpg)
