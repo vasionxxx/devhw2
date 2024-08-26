@@ -1,0 +1,18 @@
+HOST="localhost"
+PORT=8080
+FILE="/home/vasiliy/index.html"  # Укажите полный путь к файлу index.html
+
+# Проверка доступности порта
+if ! nc -z $HOST $PORT; then
+    echo "Port $PORT is not available"
+    exit 1
+fi
+
+# Проверка существования файла
+if [ ! -f $FILE ]; then
+    echo "File $FILE does not exist"
+    exit 1
+fi
+
+# Если все проверки пройдены
+exit 0

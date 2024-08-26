@@ -1,0 +1,23 @@
+vrrp_instance VI_1 {
+    state MASTER  # На первой машине укажите MASTER, на второй - BACKUP
+    interface eth0  # Укажите интерфейс, который будет использоваться
+    virtual_router_id 51
+    priority 100  # Установите приоритет (100 для MASTER, 90 для BACKUP)
+    advert_int 1
+    authentication {
+        auth_type PASS
+        auth_pass your_password
+    }
+    virtual_ipaddress {
+        172.24.77.77  # Укажите виртуальный IP
+    }
+    track_script {
+        check_webserver
+    }
+}
+
+vrrp_script check_webserver {
+    script "/usr/local/bin/check_webserver.sh"
+    interval 3  # Запускать каждые 3 секунды
+    weight -2  # Уменьшить приоритет, если скрипт завершился с ошибкой
+}
