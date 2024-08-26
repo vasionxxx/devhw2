@@ -2,7 +2,7 @@
 # Задание №1.
 # Настраиваем отслеживание состояния интерфейсов. 
 
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/q11.jpg)
+![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/q11.png)
 
 
 # Отсоединяем кабель и запускаем ping..
