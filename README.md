@@ -1,37 +1,24 @@
-# Домашнее задание к занятию «Кластеризация и балансировка нагрузки» - BodarevVV
+# Домашнее задание к занятию «Disaster recovery и Keepalived» - BodarevVV
 # Задание №1.
-# Запускаем два simple python сервера. Создаем 2 файла srv1.py и srv2.py. Скриншоты содержимого файлов srv1.py и srv2.py:
+# Настраиваем отслеживание состояния интерфейсов. 
 
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/3_1.jpg)
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/3_2.jpg)
+![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/q11.jpg)
 
-# Запускаем сервер с помощью команд python3 srv1.py и python3 srv2.py. Проверяем работу сервера зайдя на него.
 
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/3_3.jpg)
+# Отсоединяем кабель и запускаем ping..
 
-# Устанавливаем HAProxy с помощью команды - sudo apt-get install haproxy. 
-Настраиваем балансировку. 
-Скриншот файла haproxy.cfg:
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/3_4.jpg)
-
-# Перезапускаем HAProxy - sudo systemctl restart haproxy и проверяем работу. Видно, что при обновлении страницы нас перенаправляет на разные сервера.
-
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/3_5.jpg)
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/3_6.jpg)
-
-# Файл HAProxy https://github.com/vasionxxx/devhw2/blob/main/CICD/haproxy1.txt
+![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/q12.jpg)
 
 # Задание №2.
-# Запускаем три simple python сервера по аналогии с первым заданием. Настраиваем балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий – 4. Скриншот настроек:
+# Запускаем 2 виртуальные машины, устанавливаем и настраиваем сервер keepalived. Запускаем веб-сервер на виртуальных машинах с помощью команды - python3 -m http.server 8080 &. Пишем Bash-скрипт, который будет проверять доступность порта данного веб-сервера и существование файла index.html.
 
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/3_7.jpg)
+[Ссылка](https://github.com/vasionxxx/devhw2/blob/main/CICD/check_webserver.sh.txt)
 
-# Проверим работу. Видно что запросы перенаправляются. 
+# Настраиваем Keepalived
 
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/3_8.jpg)
+[Ссылка](https://github.com/vasionxxx/devhw2/blob/main/CICD/keepalived.conf.txt)
 
-# Если же обратится без указания хоста, появится ошибка
+# Выключаем первую виртуальную машину и проверяем статус keeplived и видим, что вторая виртуальная машина стала “MASTER STATE” и ip адрес 172.24.77.77 указанный в keepalived.conf, если включить первую виртуальную машину то вторая станет “BACKUP STATE”.
 
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/3_9.jpg)
-
-# Файл HAProxy https://github.com/vasionxxx/devhw2/blob/main/CICD/haproxy2.txt
+![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/q22.jpg)
+![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/q21.jpg)
