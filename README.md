@@ -22,4 +22,4 @@
 
 ![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/q21.jpg)
 
-![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/q22.jpg)
+![alt text](https://github.com/vasionxxx/devhw2/blob/main/CICD/q22.JPG)
