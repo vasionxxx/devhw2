@@ -22,6 +22,7 @@
 
 ---
 Установим memcached и проверим что он запущен. 
+
 ![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/31.jpg)
 	
 ---
@@ -30,6 +31,7 @@
 
 ---
 Подключимся к Memcached - telnet localhost 11211. Добавляем ключ и проверим что через 5 секунд он удалился.
+
 ![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/32.jpg)
 
 ---
@@ -38,6 +40,7 @@
 
 ---
 Записываем через redis-cli несколько ключей и достаем записанные ключи из базы.
+
 ![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/33.jpg)
 
 ---
