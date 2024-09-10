@@ -26,15 +26,18 @@
 	
 ---
 
-# Задание 3. SQL vs NoSQL
+# Задание 3. Удаление по TTL в Memcached
+
+---
+Подключимся к Memcached - telnet localhost 11211. Добавляем ключ и проверим что через 5 секунд он удалился.
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/32.jpg)
 
 ---
 
-   
----
-
-# Задание 4. Кластеры
+# Задание 4. Запись данных в Redis
 
 ---
+Записываем через redis-cli несколько ключей и достаем записанные ключи из базы.
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/33.jpg)
 
 ---
