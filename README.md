@@ -16,7 +16,7 @@
 
 Получите из таблицы платежей за прокат фильмов информацию по платежам, которые выполнялись в промежуток с 15 июня 2005 года по 18 июня 2005 года включительно и стоимость которых превышает 10.00.
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/5_2.jpg)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/4.2.jpg)
 
 ---
 
