@@ -4,83 +4,47 @@
 
 ---
 
-1.1.	Установим MySQL
+Получите уникальные названия районов из таблицы с адресами, которые начинаются на “K” и заканчиваются на “a” и не содержат пробелов.
 
 ![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/4_1.jpg)
 
 ---
 
+# Задание 2.
+
 ---
 
-1.2.	Создадим учётную запись sys_temp
+Получите из таблицы платежей за прокат фильмов информацию по платежам, которые выполнялись в промежуток с 15 июня 2005 года по 18 июня 2005 года включительно и стоимость которых превышает 10.00.
 
 ![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/4_2.jpg)
 
 ---
 
+# Задание 3.
+
 ---
 
-1.3.	Выполним запрос на получение списка пользователей в базе данных
+Получите последние пять аренд фильмов.
 
 ![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/4_3.jpg)
 
 ---
 
+# Задание 4.
+
 ---
 
-1.4.	Дадим все права для пользователя sys_temp.
+Одним запросом получите активных покупателей, имена которых Kelly или Willie.
+Сформируйте вывод в результат таким образом:
+
+•	все буквы в фамилии и имени из верхнего регистра переведите в нижний регистр,
+
+•	замените буквы 'll' в именах на 'pp'.
+
 
 ![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/4_4.jpg)
 
 ---
 
----
-
-1.5.	Выполним запрос на получение списка прав для пользователя sys_temp.
-
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/4_5.jpg)
-
----
-
----
-
-1.6.	Переподключимся к базе данных от имени sys_temp.
-
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/4_6.jpg)
-
-Для смены типа аутентификации с sha2 используем запрос:
-ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
-
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/4_7.jpg)
-
----
-
----
-
-1.7.	По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачиваем дамп базы данных.
-
----
-
----
-
-1.8.	Восстановим дамп в базу данных.
-
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/4_8.jpg)
-
----
-
----
-
-1.9.	Получаем список всех таблиц в базе данных.
-
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/4_9.jpg)
-
-# Задание 2.
-
----
-
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/4_10.jpg)
-
----
 
 
