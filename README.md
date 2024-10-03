@@ -6,7 +6,7 @@
 
 Получите уникальные названия районов из таблицы с адресами, которые начинаются на “K” и заканчиваются на “a” и не содержат пробелов.
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/4_1.jpg)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/5_1.jpg)
 
 ---
 
@@ -16,7 +16,7 @@
 
 Получите из таблицы платежей за прокат фильмов информацию по платежам, которые выполнялись в промежуток с 15 июня 2005 года по 18 июня 2005 года включительно и стоимость которых превышает 10.00.
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/4_2.jpg)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/5_2.jpg)
 
 ---
 
@@ -26,7 +26,7 @@
 
 Получите последние пять аренд фильмов.
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/4_3.jpg)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/5_3.jpg)
 
 ---
 
@@ -42,7 +42,7 @@
 •	замените буквы 'll' в именах на 'pp'.
 
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/4_4.jpg)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/5_4.jpg)
 
 ---
 
