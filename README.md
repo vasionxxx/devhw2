@@ -12,7 +12,7 @@
 
 •	количество пользователей, закреплённых в этом магазине.
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/6_1.jpg)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/6.1.jpg)
 
 ---
 
@@ -32,7 +32,7 @@
 
 Получите информацию, за какой месяц была получена наибольшая сумма платежей, и добавьте информацию по количеству аренд за этот месяц.
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/6_3.jpg)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/6.3.jpg)
 
 ---
 
