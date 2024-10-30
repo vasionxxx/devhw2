@@ -11,15 +11,18 @@
 Приведите ответ в свободной форме.
 
 1. Разрешены следующие сетевые службы:
- FTP
+FTP
 Telnet
 SMTP
 HTTP
 RPC
 
 2. Обнаружены следующие уязвимости:
+
 Vsftpd 2.3.4 - https://www.exploit-db.com/exploits/49757
+
 SMB - https://www.exploit-db.com/exploits/29033
+
 Ruby on Rails - https://www.exploit-db.com/exploits/46785
 
 ---
