@@ -16,7 +16,7 @@
 Создадим нового пользователя cryptouser и зашифруем его домашний каталог - 
 sudo ecryptfs-migrate-home -u cryptouser
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_1.JPG)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_1.jpg)
 
 Исходный домашний каталог пользователя
 
