@@ -20,11 +20,11 @@ sudo ecryptfs-migrate-home -u cryptouser
 
 Исходный домашний каталог пользователя
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_2.JPG)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_2.jpg)
 
 Каталог пользователя после шифрования
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_3.JPG)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_3.jpg)
 
 ---
 
@@ -42,29 +42,29 @@ sudo ecryptfs-migrate-home -u cryptouser
 
 Установим LUKS
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_4.JPG)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_4.jpg)
 
 Создадим раздел
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_5.JPG)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_5.jpg)
 
 Зашифруем раздел 
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_6.JPG)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_6.jpg)
 
 Откроем раздел
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_7.JPG)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_7.jpg)
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_8.JPG)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_8.jpg)
 
 Создадим файловую систему 
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_9.JPG)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_9.jpg)
 
 Закроем раздел
 
-![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_10.JPG)
+![image alt](https://github.com/vasionxxx/devhw2/blob/main/CICD/8_10.jpg)
 
 ---
 
